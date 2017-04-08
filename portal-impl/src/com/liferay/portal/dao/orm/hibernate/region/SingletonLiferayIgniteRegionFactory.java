@@ -15,6 +15,9 @@ import org.hibernate.cfg.Settings;
 import com.liferay.portal.kernel.util.GetterUtil;
 import com.liferay.portal.kernel.util.PropsKeys;
 
+/**
+ * @author Nikita Dubina
+ */
 public class SingletonLiferayIgniteRegionFactory implements RegionFactory {
 
 	private static boolean _enabled;

@@ -25,6 +25,10 @@ import ru.emdev.bridge.ignite.cache.hibernate.HibernateRegionFactory;
 import ru.emdev.bridge.ignite.cache.hibernate.HibernateEntityRegion;
 import ru.emdev.bridge.ignite.cache.hibernate.HibernateCollectionRegion;
 
+/**
+ * @author Nikita Dubina
+ */
+
 public class LiferayIgniteRegionFactory extends HibernateRegionFactory {
 
 	private static final Log log = LogFactoryUtil.getLog(LiferayIgniteRegionFactory.class);
